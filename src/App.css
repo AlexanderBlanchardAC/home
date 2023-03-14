@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jost:wght@100;200;300;400&family=Prompt:wght@300;400&family=Raleway:wght@400;500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: darkgray;
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.App{
+  min-height: 99vh;
+  border: 10px solid black;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+  height: 100%;
+}

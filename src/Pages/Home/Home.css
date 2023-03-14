@@ -1,0 +1,60 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jost:wght@100;200;300;400&family=Prompt:wght@300;400&family=Raleway:wght@400;500&display=swap');
+
+
+
+
+/* .home-container {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.homeContainer {
+    display: flex;
+   justify-content: space-around;
+}
+
+.settings-container {
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Jost';
+    font-weight: 200;
+    width: 40%;
+    border: 1px solid green;
+    padding-bottom: 10px;;
+} 
+
+.quizBanner {
+    width: 40%;
+    align-self: center;
+    padding: 5px;
+   
+}
+
+.selectSettings {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.startQuiz {
+    color: white;
+    font-weight: 800;
+}
+
+@media (max-width: 800px) {
+    .homeContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .quiBanner {
+        width: 80%;
+        padding: 0;
+        padding-top: 15px;
+    }
+    .settings-container {
+        width: 100%;
+    }
+}

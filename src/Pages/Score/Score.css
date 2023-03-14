@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jost:wght@100;200;300;400&family=Prompt:wght@300;400&family=Raleway:wght@400;500&display=swap');
+
+
+.homeBtn {
+    height: 10vh;
+    border: 3px solid darkslateblue;
+    border-radius: 7px;
+    width: 20vw;
+    outline: none;
+    background-color: lightskyblue;
+    color: darkslateblue;
+    font-family: "Jost";
+    font-size: 3vh;
+    cursor: pointer;
+    
+}
+
+.homeBtn:hover {
+    background-color: lightseagreen;
+    color: white;
+}

@@ -1,0 +1,26 @@
+
+
+#answerButton {
+    color: white;
+    font-size: 2vh;
+    text-transform: capitalize;
+    line-height: 0.8;
+
+}
+
+.answerRed {
+    background-color: red;
+}
+
+
+
+.answer {
+    background-color: lightBlue;
+    cursor: pointer;
+    
+}
+
+.answer:hover {
+    background-color: lightskyblue;
+}
+
