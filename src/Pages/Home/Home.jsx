@@ -60,7 +60,7 @@ const Home = () => {
                 </Box>
             </form>
             </Box>
-            <img src="/images/quiz-icon.png" className="quizBanner" alt="quiz image" />
+            <img src={quizIcon} className="quizBanner" alt="quiz image" />
         </div>
     )
 
