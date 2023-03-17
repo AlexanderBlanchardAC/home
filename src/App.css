@@ -26,8 +26,10 @@ a{
   padding: 10px;
   display: flex;
   flex-direction: column;
+  
 }
 
 body{
   height: 100%;
+
 }

@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import SelectField from "../../components/selectOptions/SelectField";
 import TextFieldComp from '../../components/selectOptions/TextFieldComp';
 import useAxios from "../../hooks/useAxios";
+import quizIcon from "../../assets/images/quizIcon.png";
 
 
 
@@ -59,7 +60,7 @@ const Home = () => {
                 </Box>
             </form>
             </Box>
-            <img src="/images/quiz-icon.png" className="quizBanner" alt="quiz image" />
+            <img src={quizIcon} className="quizBanner" alt="quiz image" />
         </div>
     )
 
