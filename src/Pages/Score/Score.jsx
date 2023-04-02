@@ -16,7 +16,7 @@ const Score = () => {
     const handleReturnHome = () => {
         dispatch(handleChangeScore(0));
         dispatch(handleSelectQuestionAmount(20));
-        navigate("/")
+        navigate("/home")
     };
 
 
